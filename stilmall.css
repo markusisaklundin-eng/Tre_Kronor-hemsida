@@ -410,15 +410,15 @@ footer{
     margin: 2rem auto;
     padding: 0 2rem;
     display: grid;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 /* Media */
 .media video,
 .media audio{
-    width: 50%;
-    height: 30%;
-    margin-bottom: 3rem;
+    width: 80%;
+    height: 50%;
+    margin-bottom: 1rem;
     margin-top: 3rem;
     border-radius: 8px;
 }
