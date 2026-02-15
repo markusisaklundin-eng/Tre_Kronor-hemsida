@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <link rel="stylesheet" href="stilmall.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="Förbättrad version av pizzerian Tre Kronors hemsida">
+    <meta name="keywords" content="förbättrad, hemsida, pizzeria, Tre, Kronor">
+    <meta  name="author" content="Markus Lundin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tre Kronor - hem</title>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="logotyp">
+                <a href="index.html">
+                    <img src="logotyp.png" alt="Tre kronors logotyp">
+                </a>
+            </div>
+
+            <div class="hamburger">☰</div>
+            <ul class="meny">
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="meny.html">Meny</a></li>
+                <li><a href="dagens_lunch.html">Dagens lunch</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="om_oss.html">Om oss</a></li>
+                <li><a href="extra.html" class="active">Extra</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="extra-layout">
+            <section class="media">
+                <h2>Video</h2>
+    
+                <video controls>
+                    <source src="video.mp4" type="video/mp4">
+                    Video ej tillgänglig
+                </video>
+    
+            <section class="formulär">
+                <h2>Formulär</h2>
+                <form action="mailto:dinmail@example.com" method="post" enctype="text/plain">
+                    <label for="namn">Namn:</label>
+                    <input type="text" id="namn" name="namn" required>
+        
+                    <label for="email">E-post:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="meddelande">Meddelande:</label>
+                    <textarea id="meddelande" name="meddelande" rows="5" required></textarea>
+        
+                    <button type="submit">Skicka</button>
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <section class="kontakt">
+            <h3>Kontakt:</h3>
+
+            <div class="kontakt-info">
+            <p>Telefon: <a href="tel:123456789">123 45 67 89</a></p>
+            <p>Mail: <a href="mailto:pizza123@gmail.com">pizza123@gmail.com</a></p>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
