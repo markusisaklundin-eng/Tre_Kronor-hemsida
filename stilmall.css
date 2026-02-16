@@ -48,12 +48,6 @@ nav{
     padding-bottom: 5px;
 }
 
-.hamburger {
-    display: none; 
-    font-size: 2rem;
-    cursor: default; 
-}
-
 main{
     padding: 0;
 }
