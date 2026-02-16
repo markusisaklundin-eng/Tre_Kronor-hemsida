@@ -413,9 +413,7 @@ footer{
     gap: 1rem;
 }
 
-/* Media */
-.media video,
-.media audio{
+.media video{
     width: 80%;
     height: 50%;
     margin-bottom: 1rem;
@@ -423,7 +421,6 @@ footer{
     border-radius: 8px;
 }
 
-/* Formulär */
 .formulär form{
     display: grid;
     gap: 1rem;
