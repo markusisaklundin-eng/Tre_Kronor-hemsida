@@ -290,12 +290,12 @@ footer{
 }
 
 .meny-tabell td:last-child,
-.meny-tabell th:last-child {
+.meny-tabell th:last-child{
     text-align: right;
 }
 /* Dagens lunch*/
 
-.rubrik .info-text {
+.rubrik .info-text{
     margin: 0.5rem 0 0 35rem;       
     font-style: italic;
     color: black;
@@ -304,7 +304,7 @@ footer{
     justify-self: start;              
 }
 
-.pris-text {
+.pris-info{
     text-align: center; 
     margin-top: 1rem;   
     font-size: 1.2rem;  
