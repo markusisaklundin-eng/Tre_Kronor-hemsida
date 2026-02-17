@@ -455,6 +455,7 @@ footer{
     background-color: #b8741a;
 }
 
+/* Förbättrad utskriftslayout för startsidan */
 @media print{
     .cta-sektion{
         display: none; 
