@@ -454,3 +454,13 @@ footer{
 .formulär button:hover{
     background-color: #b8741a;
 }
+
+@media print{
+    .cta-sektion{
+        display: none; 
+    }
+    body {
+        background: white; 
+        color: black;  
+    }
+}
