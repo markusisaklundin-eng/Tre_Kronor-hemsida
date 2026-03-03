@@ -9,18 +9,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Tre Kronor - extra</title>
+
+    <link rel="stylesheet" href="jquery-ui.min.css">
+
+    <script src="jquery-4.0.0.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
 </head>
 <body>
     
     <header>
-        <nav>
+        <nav class="extra-nav">
             <div class="logotyp">
                 <a href="index.html">
                     <img src="logotyp.png" alt="Tre kronors logotyp">
                 </a>
             </div>
 
-            <ul class="meny">
+            <button id="toggle-menu" aria-label = "Meny">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="meny" id="extra-submeny" style="display: none;">
                 <li><a href="index.html">Hem</a></li>
                 <li><a href="meny.html">Meny</a></li>
                 <li><a href="dagens_lunch.html">Dagens lunch</a></li>
@@ -58,6 +69,28 @@
                 </form>
             </section>
         </section>
+
+        <section class="knapp">
+            <button id="knapp">Show Message</button>
+        </section>
+
+        <section class="fade-sektion">
+            <h2>Fade-effekten</h2>
+            
+            <div class="textblock">
+                <div id="textblock-1" class="text-box">
+                    <p>Ruta 1</p>
+                    <p>20% Opacitet</p>
+                </div>
+                
+                <div id="textblock-2" class="text-box">
+                    <p>Ruta 2</p>
+                    <p>60% Opacitet</p>
+                </div>
+            </div>
+        
+            <button id="start-fade">Klicka för att tona rutorna</button>
+        </section>
     </main>
 
     <footer>
@@ -70,5 +103,10 @@
             </div>
         </section>
     </footer>
+
+    <script src="meny.js"></script>
+    <script src="extra.js"></script>
+    <script src="script.js"></script>
+   
 </body>
 </html>
